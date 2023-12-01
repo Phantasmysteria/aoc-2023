@@ -33,7 +33,7 @@ template <typename T>
 void print1Dcontainer(T input)
 {
     cout << "\n=======================\n";
-    cout << "Printing " << typeid(input).name() << "\n";
+    cout << "Printing " << typeid(input).name() << "\n\n";
     cout << varName(input) << ": ";
     for (auto i : input) {cout << i << " ";}
     cout << "\n=======================\n";
@@ -43,7 +43,7 @@ template <typename T>
 void print2Dcontainer(T input)
 {
     cout << "\n=======================\n";
-    cout << "Printing " << typeid(input).name() << "\n";
+    cout << "Printing " << typeid(input).name() << "\n\n";
     cout << varName(input) << ": \n";
     for (auto i : input) {for (auto j : i) {cout << j << " ";} cout << "\n";} 
     cout << "\n=======================\n";
