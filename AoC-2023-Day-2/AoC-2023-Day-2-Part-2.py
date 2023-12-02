@@ -41,5 +41,5 @@ def solve(inp):
     
 
 if __name__ == '__main__':
-    gameInfo = solve(inputLines)
-    print(gameInfo)
+    result = solve(inputLines)
+    print(result)
