@@ -6,6 +6,7 @@ from typing import List
 inputLines = AoCUtils.listLines(day=1, part=1)
 
 def solve(inp):
+    
     result = []
 
     return result
